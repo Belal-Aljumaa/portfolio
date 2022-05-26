@@ -1,0 +1,432 @@
+
+/********************** Phone **************************/
+@media (min-width: 375px) and (max-width: 425px){
+    header{
+       padding: 5px;
+    }
+
+    .logo{
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    li a{
+        padding-left: 15px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    header nav { 
+        display: none;
+    }
+
+    #hamburger-icon { 
+        display: block;
+    }
+
+    .main {
+        padding-left: 5px;
+    }
+
+
+    .main h2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .main h2 span { 
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .main h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        padding: 5px;
+    }
+
+    .main-btn {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    section{
+        padding: 20px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .card .icon {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .icon:before {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card:hover .icon:before { 
+        width: 80px;
+        height: 80px;
+    }
+
+    #skills .content { 
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  .info img {
+    width: 80px;
+    height: 80px;
+   }
+   .footer {
+    padding: 5px;
+    }
+
+ .footer-title {
+    font-size: 18px;
+   }
+
+ .footer .social-icons a{
+    font-size: 18px;
+    padding: 0 5px 0 0;
+   }
+}
+/*******************************************************/
+
+
+
+/********************** Tablet **************************/
+@media (min-width: 426px) and (max-width: 768px){
+    header{
+        padding: 10px 20px;
+    }
+
+    .logo{
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    header nav { 
+        display: none;
+    }
+
+    #hamburger-icon { 
+        display: block;
+    }
+
+    li a{
+        padding-left: 15px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .main {
+        padding-left: 20px;
+    }
+
+
+    .main h2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .main h2 span { 
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .main h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        padding: 5px;
+    }
+
+    .main-btn {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 28px;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .card .icon {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .icon:before {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card:hover .icon:before { 
+        width: 85px;
+        height: 85px;
+    }
+
+    #skills .content { 
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+  .info img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+   }
+
+   .footer {
+    padding: 10px 20px;
+    }
+
+    .footer-title {
+    font-size: 18px;
+    }
+
+    .footer .social-icons a{
+    font-size: 18px;
+    padding: 0 5px 0 0;
+   }
+
+}
+/*********************************************************/
+
+
+
+/********************** Laptop  **************************/
+@media (min-width: 769px) and (max-width: 1024px){
+    header{
+        padding: 15px 50px;
+    }
+
+    .logo{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    li a{
+        padding-left: 15px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .main {
+        padding-left: 50px;
+    }
+
+
+    .main h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .main h2 span { 
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .main h3{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .social-icons a {
+        font-size: 28px;
+        padding: 9px;
+    }
+
+    .main-btn {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 12px 30px;
+        margin-bottom: 30px;
+    }
+
+    .title{
+        font-size: 36px;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card .icon {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .icon:before {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card:hover .icon:before { 
+        width: 85px;
+        height: 85px;
+    }
+
+  #skills .content { 
+    flex-direction: row;
+   }
+
+  .info img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .footer {
+    padding: 15px 50px;
+    }
+
+}
+/*************************************************************/
+
+
+/************************** Desktop **************************/
+@media (min-width: 1025px) and (max-width: 1440px){
+    header{
+        padding: 15px 100px;
+    }
+
+    li a{
+        padding-left: 20px;
+    }
+
+    .main {
+        padding-left: 100px;
+    }
+
+    .main-content h2{
+        font-size: 18px;
+    }
+
+    .main-content h3{
+        font-size: 26px;
+    }
+
+    .title{
+        font-size: 36px;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .content{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 280px;
+    }
+
+}
+/*************************************************************/
+
+
+/********************** Monitor  **************************/
+@media (min-width: 1441px){
+    header{
+        padding: 15px 200px;
+    }
+
+    .logo{
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    li a{
+        padding-left: 25px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .main {
+        padding-left: 200px;
+    }
+
+
+    section {
+        padding: 100px 100px;
+    }
+
+    .content{
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 400px;
+        height: 300px;
+    }
+
+    .card .icon {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .icon:before {
+        width: 90px;
+        height: 90px;
+    }
+
+    .card:hover .icon:before { 
+        width: 105px;
+        height: 105px;
+    }
+
+  #skills .content { 
+    justify-content: space-evenly;
+   }
+
+
+  .footer {
+    padding: 20px 200px;
+    }
+}

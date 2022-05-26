@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 A super responsive portfolio.
